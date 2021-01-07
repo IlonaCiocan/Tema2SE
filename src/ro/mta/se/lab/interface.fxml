@@ -3,6 +3,17 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
 <GridPane fx:controller="ro.mta.se.lab.Controller"
           xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
+    <padding>
+        <Insets top="10" right="10" bottom="10" left="10"/>
+    </padding>
+
+
+    <Label id="countryLabel" text="Tara" GridPane.rowIndex="0" GridPane.columnIndex="0" alignment="CENTER"/>
+    <ListView GridPane.columnIndex="0" GridPane.rowIndex="1" id="countryList"/>
+
+    <Label id="countryLabel" text="Orasul" GridPane.rowIndex="0" GridPane.columnIndex="1" alignment="CENTER"/>
+    <ListView GridPane.columnIndex="1" GridPane.rowIndex="1" id="cityList"/>
 </GridPane>
