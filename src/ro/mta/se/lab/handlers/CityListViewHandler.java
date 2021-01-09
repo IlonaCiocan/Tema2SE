@@ -7,6 +7,7 @@ import javafx.scene.input.MouseEvent;
 import org.json.JSONObject;
 import ro.mta.se.lab.data.City;
 import ro.mta.se.lab.data.Forecast;
+import ro.mta.se.lab.log.LogHistory;
 import ro.mta.se.lab.openWeatherAPI.Query;
 
 import java.io.IOException;
@@ -51,6 +52,9 @@ public class CityListViewHandler implements EventHandler<MouseEvent> {
     private void populateTable(Forecast forecast){
         weatherTable.getItems().clear();
         weatherTable.getItems().add(forecast);
+
+        LogHistory.log(forecast);
+
     }
 
     @Override
