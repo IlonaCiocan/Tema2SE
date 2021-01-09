@@ -8,6 +8,7 @@
 <?import javafx.scene.layout.VBox?>
 
 <?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
 <GridPane fx:controller="ro.mta.se.lab.controllers.Controller"
           xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
     <padding>
@@ -29,11 +30,36 @@
         <Label id="tableLabel" text="Date Meteo"/>
         <TableView fx:id="weatherDataTable">
             <columns>
-                <TableColumn text="Vremea" id="weather" prefWidth="100" minWidth="100" maxWidth="100"/>
-                <TableColumn text="Temperatura" id="temp" prefWidth="100" minWidth="100" maxWidth="100"/>
-                <TableColumn text="Vant" id="wind" prefWidth="83" minWidth="83" maxWidth="83"/>
-                <TableColumn text="Umiditate" id="humidity" prefWidth="100" minWidth="100" maxWidth="100"/>
-                <TableColumn text="Presiune" id="pressure" prefWidth="100" minWidth="100" maxWidth="100"/>
+                <TableColumn text="Vremea" id="weather" minWidth="80" maxWidth="80">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="weatherDescription" />
+                    </cellValueFactory>
+                </TableColumn>
+                <TableColumn text="Temperatura" id="temp" minWidth="80" maxWidth="80">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="temperature"/>
+                    </cellValueFactory>
+                </TableColumn>
+                <TableColumn text="Vant" id="wind" prefWidth="83" minWidth="83" maxWidth="83">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="windSpeed"/>
+                    </cellValueFactory>
+                </TableColumn>
+                <TableColumn text="Umiditate" id="humidity" minWidth="80" maxWidth="80">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="humidity"/>
+                    </cellValueFactory>
+                </TableColumn>
+                <TableColumn text="Presiune" id="pressure" minWidth="80" maxWidth="80">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="pressure"/>
+                    </cellValueFactory>
+                </TableColumn>
+                <TableColumn text="Precipitatii" id="precipitations" minWidth="80" maxWidth="80">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="precipitations"/>
+                    </cellValueFactory>
+                </TableColumn>
             </columns>
         </TableView>
     </VBox>
