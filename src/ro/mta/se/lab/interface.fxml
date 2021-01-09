@@ -12,8 +12,8 @@
 
 
     <Label id="countryLabel" text="Tara" GridPane.rowIndex="0" GridPane.columnIndex="0" alignment="CENTER"/>
-    <ListView GridPane.columnIndex="0" GridPane.rowIndex="1" id="countryList"/>
+    <ListView GridPane.columnIndex="0" GridPane.rowIndex="1" fx:id="countriesList"/>
 
     <Label id="countryLabel" text="Orasul" GridPane.rowIndex="0" GridPane.columnIndex="1" alignment="CENTER"/>
-    <ListView GridPane.columnIndex="1" GridPane.rowIndex="1" id="cityList"/>
+    <ListView GridPane.columnIndex="1" GridPane.rowIndex="1" fx:id="cityList"/>
 </GridPane>
