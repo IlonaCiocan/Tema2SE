@@ -5,6 +5,7 @@ import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.scene.Parent;
 import javafx.scene.control.ListView;
+import javafx.scene.control.TableView;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import ro.mta.se.lab.Properties;
@@ -30,6 +31,8 @@ public class Controller {
     @FXML
     private ListView<String> countriesList;
 
+    @FXML
+    private TableView<String> weatherDataTable;
     public Controller(){};
 
     @FXML
