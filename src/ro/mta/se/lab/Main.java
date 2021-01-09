@@ -32,7 +32,13 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource(Properties.UI_DEFINITION_FILENAME));
         primaryStage.setTitle(Properties.APPLICATION_TITLE);
-        primaryStage.setScene(new Scene(root, Properties.WINDOW_WIDTH, Properties.WINDOW_HEIGHT));
+        primaryStage.setScene(new Scene(root, Properties.WINDOW_HEIGHT,Properties.WINDOW_WIDTH));
+
+        primaryStage.setMaxHeight(Properties.WINDOW_HEIGHT);
+        primaryStage.setMaxWidth(Properties.WINDOW_WIDTH);
+        primaryStage.setMinHeight(Properties.WINDOW_HEIGHT);
+        primaryStage.setMinWidth(Properties.WINDOW_WIDTH);
+
         primaryStage.show();
 
        // populateCityList(root);
