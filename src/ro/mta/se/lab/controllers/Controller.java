@@ -10,6 +10,8 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 import ro.mta.se.lab.Properties;
 import ro.mta.se.lab.data.City;
+import ro.mta.se.lab.data.Forecast;
+import ro.mta.se.lab.handlers.CityListViewHandler;
 import ro.mta.se.lab.handlers.CountryListViewHandler;
 
 import java.awt.event.MouseEvent;
@@ -32,7 +34,7 @@ public class Controller {
     private ListView<String> countriesList;
 
     @FXML
-    private TableView<String> weatherDataTable;
+    private TableView<Forecast> weatherDataTable;
     public Controller(){};
 
     @FXML
@@ -40,6 +42,7 @@ public class Controller {
         readCities();
         populateCityList();
         countriesList.setOnMouseClicked(new CountryListViewHandler(cities,cityList,countriesList));
+        cityList.setOnMouseClicked(new CityListViewHandler(cities,weatherDataTable,cityList));
     }
 
     private void readCities() throws IOException {
