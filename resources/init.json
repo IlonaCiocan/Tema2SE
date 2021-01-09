@@ -130,6 +130,26 @@
     }
   },
   {
+    "id": 745044,
+    "name": "Istanbul",
+    "state": "",
+    "country": "TR",
+    "coord": {
+      "lon": 28.949659,
+      "lat": 41.01384
+    }
+  },
+  {
+    "id": 745047,
+    "name": "İspir",
+    "state": "",
+    "country": "TR",
+    "coord": {
+      "lon": 40.995571,
+      "lat": 40.482868
+    }
+  },
+  {
     "id": 7667930,
     "name": "Ymittos",
     "state": "",

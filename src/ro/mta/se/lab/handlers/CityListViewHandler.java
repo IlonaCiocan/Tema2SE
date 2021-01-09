@@ -30,15 +30,21 @@ public class CityListViewHandler implements EventHandler<MouseEvent> {
         JSONObject main = jsonObject.getJSONObject("main");
         JSONObject wind = jsonObject.getJSONObject("wind");
         JSONObject weather = jsonObject.getJSONArray("weather").getJSONObject(0);
+        JSONObject rain = jsonObject.optJSONObject("rain");
 
 
+        double prec = 0;
+
+        if (rain != null){
+            prec = rain.getDouble("1h");
+        }
 
         return new Forecast(main.optDouble("temp")
                 ,wind.getDouble("speed")
                 ,weather.getString("description")
                 ,main.getDouble("humidity")
                 ,main.getDouble("pressure")
-                ,0
+                ,prec
                 );
     }
 
