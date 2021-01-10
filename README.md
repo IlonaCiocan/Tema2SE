@@ -22,6 +22,10 @@
     - package-ul log - ce contine clasa statica de *LogHistory* pentru logarea datelor meteo afisate
     - package-ul openWeatherAPI - ce contine clasa *Query* pentru interogarea API-ului openWeatherAPI
   - Fisiere specifice IDE-ului IntelliJ
+  - Folderul de diagrame UML
+    - Diagrama de clase
+    - Diagrama de stare
+    
   
  ## Dependinte utilizate
  
