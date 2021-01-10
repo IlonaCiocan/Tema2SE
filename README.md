@@ -25,7 +25,8 @@
   - Folderul de diagrame UML
     - Diagrama de clase
     - Diagrama de stare
-    
+  - Tests - folderul cu teste unitare
+    - QueryTests - Clasa ce testeaza clasa Query
   
  ## Dependinte utilizate
  
