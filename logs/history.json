@@ -1,0 +1,106 @@
+[
+  {
+    "precipitations": 0,
+    "weatherDescription": "cer acoperit de nori",
+    "temperature": 0.79,
+    "humidity": 86,
+    "pressure": 1008,
+    "windSpeed": 6.17
+  },
+  {
+    "precipitations": 0,
+    "weatherDescription": "cer acoperit de nori",
+    "temperature": 5.11,
+    "humidity": 94,
+    "pressure": 1019,
+    "windSpeed": 0.77
+  },
+  {
+    "precipitations": 0,
+    "weatherDescription": "cer senin",
+    "temperature": 1.69,
+    "humidity": 78,
+    "pressure": 1015,
+    "windSpeed": 1.16
+  },
+  {
+    "precipitations": 0,
+    "weatherDescription": "cer fragmentat",
+    "temperature": -13.43,
+    "humidity": 100,
+    "pressure": 1016,
+    "windSpeed": 1.21
+  },
+  {
+    "precipitations": 0,
+    "weatherDescription": "cer fragmentat",
+    "temperature": 28,
+    "humidity": 83,
+    "pressure": 1008,
+    "windSpeed": 5.14
+  },
+  {
+    "precipitations": 0,
+    "weatherDescription": "cer fragmentat",
+    "temperature": 28,
+    "humidity": 83,
+    "pressure": 1008,
+    "windSpeed": 5.14
+  },
+  {
+    "precipitations": 0,
+    "weatherDescription": "cer fragmentat",
+    "temperature": 28,
+    "humidity": 83,
+    "pressure": 1008,
+    "windSpeed": 5.14
+  },
+  {
+    "precipitations": 0,
+    "weatherDescription": "cer fragmentat",
+    "temperature": 28,
+    "humidity": 83,
+    "pressure": 1008,
+    "windSpeed": 5.14
+  },
+  {
+    "precipitations": 1.22,
+    "weatherDescription": "ploaie",
+    "temperature": 6.41,
+    "humidity": 93,
+    "pressure": 1006,
+    "windSpeed": 1.54
+  },
+  {
+    "precipitations": 0.33,
+    "weatherDescription": "ploaie ușoară",
+    "temperature": 5.28,
+    "humidity": 93,
+    "pressure": 1006,
+    "windSpeed": 2.06
+  },
+  {
+    "precipitations": 0.21,
+    "weatherDescription": "ploaie ușoară",
+    "temperature": 1.05,
+    "humidity": 93,
+    "pressure": 1009,
+    "windSpeed": 2.06
+  },
+  {
+    "precipitations": 0.21,
+    "weatherDescription": "ploaie ușoară",
+    "temperature": 1.05,
+    "humidity": 93,
+    "pressure": 1009,
+    "windSpeed": 2.06
+  },
+  {
+    "precipitations": 0,
+    "weatherDescription": "ceață",
+    "temperature": -0.32,
+    "humidity": 100,
+    "pressure": 1007,
+    "windSpeed": 4.12
+  }
+]

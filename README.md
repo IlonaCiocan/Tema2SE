@@ -2,16 +2,15 @@
 
 ## Ce este?
 
-  Acest proiect este o aplicatie de tip JAVA FX ce prezinta date meteo curente despre un oras ales de utilizator dintr-o lista.
+  Acest proiect este o aplicatie de tip MAVEN ce foloseste tehnologia Java FX pentru afisarea unei interfete grafice ce prezinta date meteo curente despre un oras ales de utilizator dintr-o lista.
   
 ## Structura
 
-  Proiectul este structurat astfel:
+  Proiectul este de tip MAVEN:
   
   - Folderul resources ce contine :
-    - un folder cu dependintele folosite
     - init.json - fisierul de initializare al aplicatiei
-    - history.json - fisierul de log-uri al aplicatiei
+    - interface.fxml - fisierul de descriere a interfetei grafice
   - Sursele proiectului
     - Main.java - punctul de intrare al aplicatiei
     - Properties.java - clasa cu variabile statice ce contine constantele importante din aplicatie
@@ -21,22 +20,28 @@
     - package-ul handlers - ce contine clase de tip *EventHandler<MouseEvent>* pentru evenimentele de click asupra listelor de orase si tari
     - package-ul log - ce contine clasa statica de *LogHistory* pentru logarea datelor meteo afisate
     - package-ul openWeatherAPI - ce contine clasa *Query* pentru interogarea API-ului openWeatherAPI
+    - test - folder special ce contine clasele de testare ale aplicatiei
   - Fisiere specifice IDE-ului IntelliJ
   - Folderul de diagrame UML
     - Diagrama de clase
     - Diagrama de stare
+<<<<<<< Updated upstream
   - Tests - folderul cu teste unitare
     - QueryTests - Clasa ce testeaza clasa Query
+=======
+  - Folderul logs
+    - history.json - fisier de logs ce contine istoricul vizualizarilor meteo din aplicatie
+>>>>>>> Stashed changes
   
  ## Dependinte utilizate
  
-  Proiectul foloseste urmatoarele librarii si dependinte:
+  Proiectul foloseste urmatoarele dependinte, descrise in POM.xml
   
   - Librariile *JavaFX*
   - Libraria *javaTuples*
-  - jar-ul json.org
-  - jar-ul junit-4.13.1 + hamcrest-all-1.3.jar pentru UnitTesting
-  - jar-ul mockito-all-1.9.5 pentru mocking
+  - JUNIT 4.12
+  - Mockito
+  - Org.json
   
 ## Fluxul aplicatiei
 
