@@ -157,6 +157,10 @@ $RECYCLE.BIN/
 *.lnk
 
 #Libraries folder
+<<<<<<< Updated upstream
 !resources/libraries/**
+=======
+!FX_Modules/*
+>>>>>>> Stashed changes
 
 # End of https://www.toptal.com/developers/gitignore/api/intellij,java,windows
