@@ -25,13 +25,10 @@
   - Folderul de diagrame UML
     - Diagrama de clase
     - Diagrama de stare
-<<<<<<< Updated upstream
   - Tests - folderul cu teste unitare
     - QueryTests - Clasa ce testeaza clasa Query
-=======
   - Folderul logs
     - history.json - fisier de logs ce contine istoricul vizualizarilor meteo din aplicatie
->>>>>>> Stashed changes
   
  ## Dependinte utilizate
  
