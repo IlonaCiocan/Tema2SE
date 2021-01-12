@@ -157,6 +157,6 @@ $RECYCLE.BIN/
 *.lnk
 
 #Libraries folder
-!resources/libraries/*
+!resources/libraries/**
 
 # End of https://www.toptal.com/developers/gitignore/api/intellij,java,windows
